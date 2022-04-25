@@ -1,0 +1,92 @@
+// reset css
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html,
+body {
+	height: 100%;
+}
+
+body {
+	line-height: 1.5;
+	-webkit-font-smoothing: antialiased;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+	display: block;
+	max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+	font: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	overflow-wrap: break-word;
+}
+
+#root,
+#__next {
+	isolation: isolate;
+}
+
+// common css
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+:root {
+	--increase: hsl(163, 72%, 41%);
+	--decrease: hsl(356, 69%, 56%);
+	--facebook: hsl(208, 92%, 53%);
+	--twitter: hsl(203, 89%, 53%);
+	--instagram: hsl(37, 97%, 70%), hsl(329, 70%, 58%);
+	--youtube: hsl(348, 97%, 39%);
+	--font-inter: 'Inter', sans-serif;
+}
+
+.dark-theme {
+	--background-body: hsl(230, 17%, 14%);
+	--background-top: hsl(232, 19%, 15%);
+	--background-card: hsl(228, 28%, 20%);
+	--blue-text: hsl(228, 34%, 66%);
+	--text: hsl(0, 0%, 100%);
+	--toggle-bg: hsl(210, 78%, 56%), hsl(146, 68%, 55%);
+}
+
+.light-theme {
+	--background-body: hsl(0, 0%, 100%);
+	--background-top: hsl(225, 100%, 98%);
+	--background-card: hsl(227, 47%, 96%);
+	--blue-text: hsl(228, 12%, 44%);
+	--text: hsl(230, 17%, 14%);
+	--toggle-bg: hsl(230, 22%, 74%);
+}
+
+html {
+	font-size: 62.5%;
+}
+
+body {
+	font-family: var(--font-inter);
+}
+
+#root {
+	position: relative;
+}
