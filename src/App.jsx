@@ -25,11 +25,11 @@ const App = () => {
 	// };
 	// numChange(11734);
 	return (
-		<div className="dark-theme">
+		<div>
 			<TopBg />
 			<div className="app container">
 				<Header />
-				<main>
+				<main className="main">
 					<Followers />
 					<Overview />
 				</main>
