@@ -3,16 +3,16 @@ import React, { useReducer } from 'react';
 const ThemeContext = React.createContext();
 
 const initialState = {
-	theme: 'dark-theme',
+	darkTheme: false,
 };
 
 const themeReducer = (state, action) => {
 	switch (action.type) {
 		case 'LIGHT_THEME':
-			return { theme: 'light-theme' };
+			return { darkTheme: false };
 
 		case 'DARK_THEME':
-			return { theme: 'dark-theme' };
+			return { darkTheme: true };
 
 		default:
 			return state;
