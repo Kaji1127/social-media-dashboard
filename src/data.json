@@ -1,78 +1,74 @@
 [
 	{
-		"facebook": {
-			"id": 1,
-			"account": "@nathanf",
-			"follower": {
-				"number": 1987,
-				"increase": 12
-			},
-			"info": {
-				"number": 87,
-				"rate": 3
-			},
-			"likes": {
-				"number": 52,
-				"rate": -2
-			},
-			"logo": "./assets/icon-facebook.svg"
-		}
+		"media": "facebook",
+		"id": 1,
+		"account": "@nathanf",
+		"follower": {
+			"number": 1987,
+			"increase": 12
+		},
+		"info": {
+			"number": 87,
+			"rate": 3
+		},
+		"likes": {
+			"number": 52,
+			"rate": -2
+		},
+		"logo": "./assets/icon-facebook.svg"
 	},
 	{
-		"twitter": {
-			"id": 2,
-			"account": "@nathanf",
-			"follower": {
-				"number": 1044,
-				"increase": 99
-			},
-			"info": {
-				"number": 117,
-				"rate": 303
-			},
-			"likes": {
-				"number": 507,
-				"rate": 553
-			},
-			"logo": "./assets/icon-twitter.svg"
-		}
+		"media": "twitter",
+		"id": 2,
+		"account": "@nathanf",
+		"follower": {
+			"number": 1044,
+			"increase": 99
+		},
+		"info": {
+			"number": 117,
+			"rate": 303
+		},
+		"likes": {
+			"number": 507,
+			"rate": 553
+		},
+		"logo": "./assets/icon-twitter.svg"
 	},
 	{
-		"instagram": {
-			"id": 2,
-			"account": "@nathanf",
-			"follower": {
-				"number": 11734,
-				"increase": 99
-			},
-			"info": {
-				"number": "52k",
-				"rate": 1375
-			},
-			"likes": {
-				"number": 5462,
-				"rate": 2257
-			},
-			"logo": "./assets/icon-twitter.svg"
-		}
+		"media": "instagram",
+		"id": 3,
+		"account": "@nathanf",
+		"follower": {
+			"number": 11734,
+			"increase": 99
+		},
+		"info": {
+			"number": "52k",
+			"rate": 1375
+		},
+		"likes": {
+			"number": 5462,
+			"rate": 2257
+		},
+		"logo": "./assets/icon-instagram.svg"
 	},
 	{
-		"youtube": {
-			"id": 4,
-			"account": "Nathan F.",
-			"follower": {
-				"number": 8239,
-				"increase": -144
-			},
-			"info": {
-				"number": 1407,
-				"rate": -12
-			},
-			"likes": {
-				"number": 107,
-				"rate": -19
-			},
-			"logo": "./assets/icon-youtube.svg"
-		}
+		"media": "youtube",
+		"id": 4,
+		"account": "Nathan F.",
+		"follower": {
+			"number": 8239,
+			"increase": -144
+		},
+		"info": {
+			"number": 1407,
+			"rate": -12
+		},
+		"likes": {
+			"number": 107,
+			"rate": -19
+		},
+		"logo": "./assets/icon-youtube.svg"
 	}
 ]
