@@ -8,3 +8,4 @@ export { default as ToggleButton } from './ToggleButton/ToggleButton';
 export { default as TopBg } from './TopBg/TopBg';
 export { default as TwitterOverview } from './TwitterOverview/TwitterOverview';
 export { default as YoutubeOverview } from './YoutubeOverview/YoutubeOverview';
+export { default as Card } from './UI/Card/Card';
