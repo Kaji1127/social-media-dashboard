@@ -2,8 +2,9 @@ import React from 'react';
 import ChangeNum from '../ChangeNum/ChangeNum';
 import './Info.scss';
 
-const Info = ({ info, logo }) => {
-	const { title, number, rate } = info;
+const Likes = ({ likes, logo }) => {
+	const { title, number, rate } = likes;
+
 	return (
 		<div className="info">
 			<div className="info__left">
@@ -18,4 +19,4 @@ const Info = ({ info, logo }) => {
 	);
 };
 
-export default Info;
+export default Likes;
