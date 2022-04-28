@@ -1,0 +1,33 @@
+.info {
+	display: flex;
+	justify-content: space-between;
+	padding: 2.7rem 3.1rem 2.4rem 2.4rem;
+
+	&__left,
+	&__right {
+		display: flex;
+		flex-direction: column;
+		row-gap: 2.4rem;
+	}
+
+	&__right {
+		row-gap: 4rem;
+		align-items: flex-end;
+	}
+
+	&__logo {
+		width: 2rem;
+		height: 2rem;
+	}
+
+	&__title {
+		font-size: 1.4rem;
+		color: var(--blue-text);
+	}
+
+	&__number {
+		font-size: 3.2rem;
+		color: var(--text);
+		line-height: 1;
+	}
+}

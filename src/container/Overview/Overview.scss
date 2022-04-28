@@ -1,0 +1,19 @@
+.overview {
+	& h2 {
+		font-size: 2.4rem;
+		color: var(--text);
+	}
+
+	&__contents {
+		display: grid;
+		grid-template-columns: repeat(1, 1fr);
+		row-gap: 1.6rem;
+		margin-top: 2.7rem;
+	}
+
+	&__item {
+		display: flex;
+		flex-direction: column;
+		row-gap: 1.6rem;
+	}
+}
