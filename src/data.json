@@ -8,10 +8,12 @@
 			"increase": 12
 		},
 		"info": {
+			"title": "Page Views",
 			"number": 87,
 			"rate": 3
 		},
 		"likes": {
+			"title": "Likes",
 			"number": 52,
 			"rate": -2
 		},
@@ -26,10 +28,12 @@
 			"increase": 99
 		},
 		"info": {
+			"title": "Retweets",
 			"number": 117,
 			"rate": 303
 		},
 		"likes": {
+			"title": "Likes",
 			"number": 507,
 			"rate": 553
 		},
@@ -44,10 +48,12 @@
 			"increase": 99
 		},
 		"info": {
+			"title": "Profile Views",
 			"number": "52k",
 			"rate": 1375
 		},
 		"likes": {
+			"title": "Likes",
 			"number": 5462,
 			"rate": 2257
 		},
@@ -62,10 +68,12 @@
 			"increase": -144
 		},
 		"info": {
+			"title": "Total Views",
 			"number": 1407,
 			"rate": -12
 		},
 		"likes": {
+			"title": "Likes",
 			"number": 107,
 			"rate": -19
 		},
