@@ -25,8 +25,8 @@ This is a solution to the [Social media dashboard with theme switcher challenge 
 
 ### スクリーンショット
 
-![](./assets/screenshot-light.png)
-![](./assets/screenshot-dark.png)
+![](./screenshot-light.png)
+![](./screenshot-dark.png)
 
 ### リンク
 
