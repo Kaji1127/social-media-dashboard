@@ -9,11 +9,42 @@
 		grid-template-columns: repeat(1, 1fr);
 		row-gap: 1.6rem;
 		margin-top: 2.7rem;
+
+		@media screen and (min-width: 48em) {
+			gap: 2.4rem;
+		}
+
+		@media screen and (min-width: 90em) {
+			grid-template-columns: repeat(2, 1fr);
+			gap: 3rem;
+		}
 	}
 
 	&__item {
 		display: flex;
 		flex-direction: column;
 		row-gap: 1.6rem;
+
+		&.instagram-ov {
+			grid-row: 2 / 3;
+		}
+
+		@media screen and (min-width: 48em) {
+			flex-direction: row;
+			gap: 2.4rem;
+		}
+
+		@media screen and (min-width: 90em) {
+			gap: 3rem;
+
+			&.twitter-ov {
+				grid-column: 1 / 2;
+			}
+
+			&.instagram-ov {
+				grid-column: 2 / 3;
+				grid-row: 1 / 2;
+			}
+		}
 	}
 }

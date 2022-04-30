@@ -1,7 +1,16 @@
 .followers {
-	display: flex;
-	flex-direction: column;
+	display: grid;
+	grid-template-columns: repeat(1, 1fr);
 	align-items: center;
 	gap: 2.4rem;
 	margin-bottom: 4.6rem;
+
+	@media screen and (min-width: 48em) {
+		grid-template-columns: repeat(2, 1fr);
+	}
+
+	@media screen and (min-width: 90em) {
+		grid-template-columns: repeat(4, 1fr);
+		gap: 3rem;
+	}
 }

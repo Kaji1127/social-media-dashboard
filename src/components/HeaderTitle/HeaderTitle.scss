@@ -11,5 +11,9 @@
 		font-weight: 700;
 		border-bottom: 1px solid var(--border-color);
 		padding-bottom: 2.4rem;
+
+		@media screen and (min-width: 64em) {
+			border-bottom: 0;
+		}
 	}
 }

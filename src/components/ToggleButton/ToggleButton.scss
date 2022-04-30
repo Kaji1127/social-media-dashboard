@@ -4,6 +4,12 @@
 	justify-content: space-between;
 	margin-top: 1.6rem;
 
+	@media screen and (min-width: 64em) {
+		margin-top: 0;
+		align-items: flex-start;
+		gap: 1.3rem;
+	}
+
 	&__text {
 		font-size: 1.4rem;
 		font-weight: bold;

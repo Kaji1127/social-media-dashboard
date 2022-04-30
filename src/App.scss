@@ -2,6 +2,22 @@
 	padding-top: 3.6rem;
 	max-width: 32.6rem;
 	margin: 0 auto;
+
+	@media screen and (min-width: 36em) {
+		max-width: 54rem;
+	}
+
+	@media screen and (min-width: 48em) {
+		max-width: 72rem;
+	}
+
+	@media screen and (min-width: 64em) {
+		max-width: 96rem;
+	}
+
+	@media screen and (min-width: 90em) {
+		max-width: 111rem;
+	}
 }
 
 .main {
