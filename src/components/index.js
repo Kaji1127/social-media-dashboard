@@ -7,3 +7,4 @@ export { default as TopBg } from './TopBg/TopBg';
 export { default as Card } from './UI/Card/Card';
 export { default as OverviewItem } from './OverviewItem/OverviewItem';
 export { default as ChangeNum } from './ChangeNum/ChangeNum';
+export { default as FollowerNum } from './FollowerNum/FollowerNum';
