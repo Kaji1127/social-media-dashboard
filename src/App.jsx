@@ -1,5 +1,3 @@
-// import { useContext } from 'react';
-// import ThemeContext from './context/ThemeContext';
 import { Header, Followers, Overview } from './container';
 import { TopBg } from './components';
 import data from './data.json';
