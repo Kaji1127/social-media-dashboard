@@ -30,7 +30,7 @@ This is a solution to the [Social media dashboard with theme switcher challenge 
 
 ### リンク
 
-- Live Site URL: [リンク](https://your-live-site-url.com)
+- Live Site URL: [リンク](https://media-dashboard-social.netlify.app/)
 
 ## プロセス
 
